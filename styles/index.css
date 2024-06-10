@@ -1,0 +1,62 @@
+/* SECCIÓN DEL BANNER */
+.banner {
+  width: 100%;
+  height: 250px;
+  background-image: url("/public/image/Banner.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  /* padding: 50px 0; */
+}
+
+/* BARRA DE NAVEGACIÓN */
+nav ul {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: end;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--primario);
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+.contenedorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* SECCIÓN DE FOTOGRAFIA */
+/* .fotoAlexa{
+    height: 200px;
+} */
+.fotoAlexa img {
+  margin: 20px;
+  border-radius: 100%;
+  width: 325px;
+}
+
+/* SECCIÓN FOOTER */
+footer {
+  padding: 10px;
+  background-color: var(--primario);
+}
+
+.redesSociales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.iconRedes {
+  text-decoration: none;
+  font-size: 20px;
+}
